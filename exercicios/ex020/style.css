@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #A0CD60,#6b8a40);
+    background-attachment: fixed;
+}
+
+main {
+    background-color: white;
+    width: 700px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #425528bb;
+    margin: auto;
+}
+
+h1 {
+    color: #38184C;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 1px 1px 2px #1d0c278c;
+}
+
+.meio {
+    text-align: center;
+}
+
+.bloco {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: lightgray;
+    border: 1px black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bloco:hover {
+    background-color: #1C646D;
+    color: white;
+    box-shadow: 1px 1px 2px #0f353a8a;
+}
+
+#oculto:hover {
+    font-weight: bold;
+    color: #1C646D;
+}
+
+#oculto > p {
+    display: none;
+}
+
+#oculto:hover > p {
+    display: block;
+    background-color: #1C646D;
+    color: white;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #531606;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #b4300f;
+}
+
+.personalizacao {
+    color: #1C646D;
+}
+
+.personalizacao:visited {
+    color: #113b41;
+}
+
+.personalizacao:hover {
+    color: #32afc0;
+    text-decoration: underline;
+}
+
+.destaque {
+    background-color: #3cd5e936;
+}
+ 
+.destaque::before {
+    content: '⮕ ';
+}
+
+.destaque::after {
+    content: ' ⬅';
+}

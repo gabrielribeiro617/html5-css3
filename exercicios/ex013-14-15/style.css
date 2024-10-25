@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightyellow;
+    font-family: Arial;
+}
+h1 {
+    background-color: goldenrod;
+    color: darkred;
+}
+h2 {
+    color: darkred;
+}
+p {
+    text-align: justify;
+}
