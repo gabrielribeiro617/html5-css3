@@ -10,16 +10,17 @@
 }
 
 header {
-    background-color: black;
-    color: white;
+    height: 220px;
+    font-family: Verdana, sans-serif;
     text-align: center;
     padding: 50px;
-    font-family: Verdana, sans-serif;
+    color: white;
+    background-color: black;
 }
 
 header h1 {
     font-family: 'Passion One';
-    font-size: 2em;
+    font-size: 8em;
     font-weight: bold;
 }
 
@@ -35,6 +36,7 @@ a {
 
 section {
     font-family: 'Sriracha';
+    font-size: 4em;
     line-height: 2em;
     background-color: white;
 }
@@ -48,16 +50,15 @@ article {
     background-size: cover;
     box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.486);
 
-    padding: 100px 30px;
-    margin: 30px -30px;
+    padding: 100px 0px;
     color: white;
 }
 
 #fundo-flor p {
     background-color: rgba(0, 0, 0, 0.555);
 
-    width: 190px;
-    padding: 5px;
+    width: 750px;
+    padding: 10px;
     margin-left: 30px;
 }
 
@@ -66,17 +67,16 @@ article {
     background-size: cover;
     box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.486);
 
-    padding: 100px 30px;
-    margin: 30px -30px;
+    padding: 100px 0px;
     color: white;
 }
 
 #fundo-papel p {
     background-color: rgba(0, 0, 0, 0.555);
 
-    width: 190px;
+    width: 760px;
+    padding: 10px;
     margin-left: 30px;
-    padding: 5px;
 }
 
 footer {
@@ -84,6 +84,6 @@ footer {
 
     font-family: Verdana, sans-serif;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     color: white;
 }
