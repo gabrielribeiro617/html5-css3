@@ -7,6 +7,12 @@
 
 * {
     margin: 0%;
+    padding: 0%;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
 }
 
 header {
@@ -20,58 +26,47 @@ header {
 
 header h1 {
     font-family: 'Passion One';
-    font-size: 8em;
+    font-size: 11.5em;
     font-weight: bold;
+    font-variant: small-caps;
 }
 
-header h1 span {
-    font-size: 1.5em;
-}
-
-a {
+header a, footer a {
     text-decoration: none;
-    color: white;
     font-weight: bold;
+    color: white;
 } 
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
 
 section {
     font-family: 'Sriracha';
     font-size: 4em;
     line-height: 2em;
+    padding: 10vh 30px;
     background-color: white;
 }
 
-article {
-    padding: 100px 30px;
+#i1 {
+    background-image: url('../imagens/background001.jpg');
 }
 
-#fundo-flor {
-    background: url('../imagens/background001.jpg') no-repeat fixed right center;
+#i2 {
+    background-image: url('../imagens/background002.jpg');
+}
+
+.imagem {
+    background: no-repeat fixed right center;
     background-size: cover;
-    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.486);
 
-    padding: 100px 0px;
+    padding: 10vh 0px;
     color: white;
-}
-
-#fundo-flor p {
-    background-color: rgba(0, 0, 0, 0.555);
-
-    width: 750px;
-    padding: 10px;
-    margin-left: 30px;
-}
-
-#fundo-papel {
-    background: url('../imagens/background002.jpg') no-repeat fixed right center;
-    background-size: cover;
     box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.486);
-
-    padding: 100px 0px;
-    color: white;
 }
 
-#fundo-papel p {
+.imagem p {
     background-color: rgba(0, 0, 0, 0.555);
 
     width: 760px;
@@ -80,10 +75,9 @@ article {
 }
 
 footer {
-    background-color: black;
-
     font-family: Verdana, sans-serif;
     text-align: center;
     padding: 10px;
     color: white;
+    background-color: black;
 }
