@@ -1,21 +1,26 @@
 @charset "UTF-8";
 
-body {
-    background-image: url('../imagens/espaco.jpg');
+* {
+    margin: 0%;
+}
+
+#fundo {
+    height: 100vh;
+    background: black url('../imagens/espaco.jpg') no-repeat fixed center center;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
 }
 
-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+#conteudo {
+    background: url('../imagens/astronauta.png') no-repeat center center;
+    background-size: contain;
 
-img {
+    position: absolute;
+    height: 600px;
+    width: 600px;
     max-width: 100%;
-    height: auto;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
 }
