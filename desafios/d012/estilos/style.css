@@ -7,7 +7,6 @@
 
 * {
     margin: 0%;
-    
 }
 
 header {
@@ -50,15 +49,16 @@ article {
     box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.486);
 
     padding: 100px 30px;
-    margin: 30px -px;
+    margin: 30px -30px;
     color: white;
 }
 
 #fundo-flor p {
-    background-color: rgba(0, 0, 0, 0.486);
+    background-color: rgba(0, 0, 0, 0.555);
 
     width: 190px;
     padding: 5px;
+    margin-left: 30px;
 }
 
 #fundo-papel {
@@ -67,14 +67,15 @@ article {
     box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.486);
 
     padding: 100px 30px;
-    margin: 30px -px;
+    margin: 30px -30px;
     color: white;
 }
 
 #fundo-papel p {
-    background-color: rgba(0, 0, 0, 0.486);
+    background-color: rgba(0, 0, 0, 0.555);
 
     width: 190px;
+    margin-left: 30px;
     padding: 5px;
 }
 
