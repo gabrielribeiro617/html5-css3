@@ -23,7 +23,7 @@ html, body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: var(--cor1) url(../imagens/fundo001.jpg) no-repeat fixed center center;
+    background: var(--cor1) url(../imagens/fundo001.jpg) no-repeat fixed center;
     background-size: cover;
 }
 
