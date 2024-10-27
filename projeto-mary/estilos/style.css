@@ -59,18 +59,33 @@ main {
     flex: 1;
 }
 
-#menu nav a {
+#menu {
+    padding-bottom: 10vw;
+    margin: 0;
+    background-image: linear-gradient(to top, var(--cor5), #cac3b500);
+}
+
+#menu #grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+#menu #grid-container a {
+    object-fit: cover; 
     color: var(--cor3);
     font-family: var(--font1);
-    font-size: 4vw;
+    font-size: 6vw;
     background-color: var(--cor4);
     border-radius: 2vw;
-    padding: 0.5vw 3vw;
+    padding: 1vw 3vw;
     margin: 2vw;
     transition-duration: 0.3s;
 }
 
-#menu nav a:hover {
+#menu #grid-container a:hover {
     background-color: var(--cor3);
     color: var(--cor4);
 }
