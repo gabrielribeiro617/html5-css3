@@ -75,6 +75,7 @@ section.imagem p {
     display: inline-block;
     padding: 10px;
     margin-left: 30px;
+    text-shadow: 1px 1px 5px black;
 }
 
 footer {
