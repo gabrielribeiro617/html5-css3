@@ -23,7 +23,7 @@ html, body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: var(--cor1) url(../imagens/fundo001.jpg) no-repeat scroll center center;
+    background: var(--cor1) url(../imagens/fundo001.jpg) no-repeat fixed center center;
     background-size: cover;
 }
 
@@ -68,18 +68,20 @@ main {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     justify-content: center;
+
     text-align: center;
 }
 
 #menu #grid-container a {
     object-fit: cover; 
+
     color: var(--cor3);
     font-family: var(--font1);
     font-size: 6vw;
     background-color: var(--cor4);
     border-radius: 2vw;
     padding: 1vw 3vw;
-    margin: 2vw;
+    margin: 2vw 4vw;
     box-shadow: inset 0px 2px 5px var(--cor2);
     transition-duration: 0.3s;
 }
