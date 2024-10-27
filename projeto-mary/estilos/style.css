@@ -30,6 +30,10 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-family: var(--font1);
+}
+
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor2), var(--cor4), #33260c00);
     color: white;
