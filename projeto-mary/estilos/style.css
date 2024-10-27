@@ -82,12 +82,14 @@ main {
     border-radius: 2vw;
     padding: 1vw 3vw;
     margin: 2vw;
+    box-shadow: inset 0px 2px 5px var(--cor2);
     transition-duration: 0.3s;
 }
 
 #menu #grid-container a:hover {
     background-color: var(--cor3);
     color: var(--cor4);
+    box-shadow: 0px 2px 5px var(--cor5);
 }
 
 footer {
