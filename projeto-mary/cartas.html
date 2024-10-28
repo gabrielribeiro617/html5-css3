@@ -7,13 +7,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="estilos/style.css">
     <style>
-        .imagem-fixa {
+        nav {
+            flex: 0
+        }
+        
+        nav .imagem-fixa {
             position: fixed;
-            top: 170vw;
-            right: 45vw;
-            bottom: 0vw;
-            left: 45vw;
+            top: 165vw;
+            right: 41vw;
+            width: 14vw;
+            padding: 3vw;
             z-index: 1000;
+            transition-duration: 0.3s;
+        }
+
+        nav .imagem-fixa:hover {
+            box-shadow: inset 1px 0px 10px rgba(0, 0, 0, 0.281);
         }
 
         #imagem {
