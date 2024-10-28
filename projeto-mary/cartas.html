@@ -14,18 +14,82 @@
         }
 
         #imagem h2 {
-            color: white;
-            padding: 10vw 3vw;
-            font-size: 10vw;
+            color: #F5DFB3;
+            position: left bottom;
+            padding-top: 10vw;
+            padding-left: 3vw;
+            font-size: 15vw;
+            text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.486);
         }
 
         main {
-            background-color: white;
+            background-color: var(--cor5);
         }
 
         article {
+            font-family: Verdana, sans-serif;
+            font-size: 4vw;
+            line-height: 2em;
             padding: 5vw 3vw;
             text-align: justify;
+            text-indent: 7vw;
+            color: white;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 10px;
+            justify-content: center;
+
+            text-align: center;
+        }
+
+        .grid-container details {
+            object-fit: cover; 
+
+            color: var(--cor3);
+            font-family: var(--font1);
+            font-size: 6vw;
+            background-color: var(--cor4);
+            border-radius: 2vw;
+            padding: 1vw 3vw;
+            margin: 2vw 1vw;
+            text-indent: 0%;
+            transition-duration: 0.3s;
+            box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.212);
+        }
+
+        .grid-container details:hover {
+            box-shadow: inset 0px 2px 5px var(--cor3);
+            transform: scale(1.05);
+        }
+
+        .grid-container details:active {
+            background-color: var(--cor3);
+            color: var(--cor4);
+        }
+
+        summary {
+            cursor: pointer;
+            list-style: none;
+        }
+
+        .carta {
+            background-color: white;
+            color: black;
+            border-radius: 4vw;
+            padding: 7vw 6vw;
+            margin-top: 2vw;
+            margin-bottom: 5vw;
+            box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.349);
+        }
+
+        .carta p {
+            font-family: var(--font1);
+            text-align: justify;
+            text-indent: 0%;
+            font-size: 3.5vw;
         }
     </style>
 </head>
@@ -42,20 +106,50 @@
     <main>
         <section id="imagem">
             <h2>
-                Cartas
+                Cartas 
             </h2>
         </section>
         <article>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cum fugiat sed ea similique dolorum repellat perferendis minus deserunt eaque cumque, nam quidem. Impedit ipsa quas, illum maxime rem error.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cum fugiat sed ea similique dolorum repellat perferendis minus deserunt eaque cumque, nam quidem. Impedit ipsa quas, illum maxime rem error.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cum fugiat sed ea similique dolorum repellat perferendis minus deserunt eaque cumque, nam quidem. Impedit ipsa quas, illum maxime rem error.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cum fugiat sed ea similique dolorum repellat perferendis minus deserunt eaque cumque, nam quidem. Impedit ipsa quas, illum maxime rem error.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cum fugiat sed ea similique dolorum repellat perferendis minus deserunt eaque cumque, nam quidem. Impedit ipsa quas, illum maxime rem error.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cum fugiat sed ea similique dolorum repellat perferendis minus deserunt eaque cumque, nam quidem. Impedit ipsa quas, illum maxime rem error.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cum fugiat sed ea similique dolorum repellat perferendis minus deserunt eaque cumque, nam quidem. Impedit ipsa quas, illum maxime rem error.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cum fugiat sed ea similique dolorum repellat perferendis minus deserunt eaque cumque, nam quidem. Impedit ipsa quas, illum maxime rem error.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cum fugiat sed ea similique dolorum repellat perferendis minus deserunt eaque cumque, nam quidem. Impedit ipsa quas, illum maxime rem error.</p>
+            <div class="grid-container">
+                <details>
+                    <summary>
+                        Prólogo de Um Exagero
+                    </summary>
+                    <div class="carta">
+                        <p>
+                            Em cada passo que dou, vejo que olhar para trás já não é mais uma opção. <br>
+                            Pois quando lhe admiro só falta ao meu coração sentir a utopia de um nirvana em seu estado lúcido de ilusão, e a reciprocidade que me satisfaz... viver. <br>
+                            Apenas anseio ao desejo: eu quero te ter, e como eu quero em meus braços, pele a pele, ao teu toque, sem retaliações. <br>
+                            Apenas você e eu, frente a frente.
+                        </p>
+                        <p>
+                            Não existe circunstâncias que me façam olhar para ti sem querer entregar meu corpo e minha alma, ser por completo teu.
+                        </p>
+                        <p>
+                            Não há nada a fazer sem você. <br>
+                            Não a nada a sonhar sem você. <br>
+                            Não a nada a admirar, senão você. <br>
+                            Não há nada a viver, não há nada a sofre, você.
+                        </p>
+                    </div>
+                </details>
+            <details>
+                <summary>
+                    Uma Breve Nota de Arrependimento
+                </summary>
+                <div class="carta">
 
+                </div>
+            </details>
+            <details>
+                <summary>
+                    Carta 06/09/2024
+                </summary>
+                <div class="carta">
+                    
+                </div>
+            </details>
+        </div>
         </article>
     </main>
 

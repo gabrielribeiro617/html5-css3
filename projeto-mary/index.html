@@ -37,14 +37,18 @@
             border-radius: 2vw;
             padding: 1vw 3vw;
             margin: 2vw 4vw;
-            box-shadow: inset 0px 2px 5px var(--cor3);
             transition-duration: 0.3s;
+            box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.212);
         }
 
         #menu #grid-container a:hover {
+            box-shadow: inset 0px 2px 5px var(--cor3);
+            transform: scale(1.05);
+        }
+
+        #menu #grid-container a:active {
             background-color: var(--cor3);
             color: var(--cor4);
-            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.363);
         }
     </style>
 </head>
